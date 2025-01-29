@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>.berschrift {text-align: center; text-shadow: green 1px 1px 2px; color: rgb(255, 0, 191)} .P {text-align: center;} </style>
-    </head>
-    <body style="background-color: aliceblue;">
+
+<head>
+    <style>
+        .berschrift {
+            text-shadow: green 1px 1px 2px;
+            color: rgb(255, 0, 191)
+        }
+        .container{
+            display:flex;flex-direction: column;
+            align-items: center;
+
+        }
+        button{
+            font-size: xx-large;
+            color:#DB0030
+            border-color: gray;
+            background: linear-gradient(#DB0030, #004D98) ;
+        }
+        button:hover  {
+            	background-color: lightgray; 
+                color: ;
+        }
+        
+    </style>
+</head>
+
+<body style="background-color: aliceblue;">
+    <div class="container">
         <h1 class="berschrift">Hallo</h1>
-        <p class="P">Unsere Fußball AG findet jeden Montag Nachmitag auf dem sport platz statt</p>
-        <p class="P"><iframe width="560" height="315" src="https://www.youtube.com/embed/xvFZjo5PgG0?si=_GGcgJJz_Way4XDJ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-        <p class="P">ich weiß nicht was ich noch schreiben solls</p>
+        <div>
+            <p class="P">Unsere Fußball AG findet jeden Montag Nachmitag auf dem sport platz statt</p>
+            <p class="p"><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/xvFZjo5PgG0?si=_GGcgJJz_Way4XDJ?autoplay=1&mute=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+            <p class="P">ich weiß nicht was ich noch schreiben solls</p>
+        </div>
         <h2 class="berschrift">Welche Gegenstände mitbringen</h2>
-    </body>
+        <a href="https://www.fcbarcelona.com/en/"><button>FC Barcelona</button></a>
+    </div>
+</body>
+
 </html>
